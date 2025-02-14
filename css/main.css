@@ -1,0 +1,21 @@
+.image-3 {
+    background-image: url(../images/fes_500.jpg);
+    background-repeat: no-repeat;
+    height: 334px;
+}
+
+@media screen and (min-width: 650px) {
+  .image-3 {
+    background-image: url(../images/fes_700.jpg);
+    background-repeat: no-repeat;
+    height: 467px;
+  }
+ }
+
+ @media screen and (min-width: 900px) {
+    .image-3 {
+      background-image: url(../images/fes_1000.jpg);
+      background-repeat: no-repeat;
+      height: 667px;
+    }
+   }

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Sizing for Web</title>
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="images-1">
+        <img sizes="
+        (min-width: 900px) 1200px,
+        (min-width: 650px) 800px,
+        (min-width: 400px) 600px,
+        100vw" srcset="images/girl_500.jpg 500w,
+        images/girl_700.jpg 700w,
+        images/girl_1000.jpg 1000w," src="images/girl_500.jpg" alt="festive girl">
+    </div>
+
+    <div class="images-2">
+        <img sizes="
+        (min-width: 900px) 1200px,
+        (min-width: 650px) 800px,
+        (min-width: 400px) 600px,
+        100vw" srcset="images/maman_500.jpg 500w,
+        images/maman_700.jpg 700w,
+        images/maman_1000.jpg 1000w," src="images/maman_500.jpg" alt="maman sculpture">
+    </div>
+
+
+    <img class="image-3" src="images/fes_500.jpg" alt="craftsman">
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
